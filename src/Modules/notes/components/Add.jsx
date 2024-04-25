@@ -1,8 +1,11 @@
 import React from 'react'
 
-export const Add=()=> {
+ const Add=()=> {
   return (
-    <div>Add</div>
+   <>
+  add
+   </>
   );
 }
+export default Add;
 
