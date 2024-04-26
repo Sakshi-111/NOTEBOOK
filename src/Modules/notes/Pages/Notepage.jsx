@@ -4,7 +4,9 @@ import Add from '../components/Add'
 import List from '../components/List'
 import Header from '../../../Shared/Component/Header'
 
+
 import { Container, Grid, Paper } from '@mui/material';
+import Sidebar from '../../../Shared/Component/Sidebar';
 
 
 const  Notepage=()=> {
@@ -15,18 +17,18 @@ const  Notepage=()=> {
     
     <Container  maxWidth="fixed">
       <Grid container spacing={2}>
-        <Grid item xs={3}>
 
-        <Paper>
-          
-        </Paper>
+        <Grid item xs={2}>
+
+      <Sidebar/>  
         </Grid>
-        <Grid item xs={9}>
+        <Grid item xs={10}>
           <Paper>
           <Add/>
-             <List/>
-            
           </Paper>
+          <List/>
+            
+          
         </Grid>
       </Grid>
     </Container>
