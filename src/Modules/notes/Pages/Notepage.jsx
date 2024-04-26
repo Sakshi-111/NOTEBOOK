@@ -6,17 +6,20 @@ import Header from '../../../Shared/Component/Header'
 
 import { Container, Grid, Paper } from '@mui/material';
 
+
 const  Notepage=()=> {
   return (
   <div>
     <Header/>
     <br/>
     
-    <Container  maxWidth="auto">
+    <Container  maxWidth="fixed">
       <Grid container spacing={2}>
         <Grid item xs={3}>
 
-        <Paper>Left Content</Paper>
+        <Paper>
+          
+        </Paper>
         </Grid>
         <Grid item xs={9}>
           <Paper>
